@@ -31,7 +31,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guidelineHorizontal" />
+        app:layout_constraintTop_toTopOf="@+id/guidelineHorizontal"
+        android:alpha="0"
+        tools:alpha="100"/>
 
     <TextView
         android:id="@+id/descTextView"
@@ -46,7 +48,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        android:alpha="0"
+        tools:alpha="100"/>
 
     <Button
         android:id="@+id/loginButton"
@@ -59,7 +63,9 @@
         android:text="@string/login"
         app:layout_constraintEnd_toStartOf="@+id/guidelineVertical"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/descTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/descTextView"
+        android:alpha="0"
+        tools:alpha="100"/>
 
     <Button
         android:id="@+id/signupButton"
@@ -72,7 +78,9 @@
         android:text="@string/signup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guidelineVertical"
-        app:layout_constraintTop_toBottomOf="@+id/descTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/descTextView"
+        android:alpha="0"
+        tools:alpha="100"/>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineHorizontal"
